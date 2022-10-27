@@ -1,0 +1,11 @@
+.altura-img{
+
+    height: calc(100vh - 56px);
+   
+}
+
+.card-img-top{
+
+    height: 400px;
+
+}
