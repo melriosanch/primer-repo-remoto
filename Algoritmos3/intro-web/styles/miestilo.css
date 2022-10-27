@@ -1,0 +1,36 @@
+/*p {
+    color:blueviolet;
+
+
+pre{
+    color:aqua;
+}
+
+*/
+
+/*selector universl */
+
+*{
+
+    color: grey;
+}
+
+em{
+    color:  crimson;
+}
+
+span {
+
+    color: cadetblue;
+}
+
+.titulo {
+    color:rgb(192, 172, 241);
+
+}
+
+/* selector de id*/
+
+#selector {
+    color: blueviolet;
+}
