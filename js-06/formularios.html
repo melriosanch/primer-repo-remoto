@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario
+    </title>
+</head>
+<body>
+   <!--MANEJO DE dOM 
+
+        <h1>Datos personales</h1>
+        <form id="formulario">
+        Nombre <input type "text" name="nombre " value="Juan"> <br>
+        Apellido <input type="text" name="apellido" value="Perez">
+</form>
+    <button onclick="mostrarValores()"> Monstrar </button> 
+    <div id ="valores">valores</div>
+    <script>
+        function mostrarValores (){
+            let formulario = document.forms [ 'formulario'] 
+            let texto = ' ';
+            for (let elemento of formulario){
+                texto += elemento.value + '<br/>';
+
+            }
+            document.getElementById ("valores").innerHTML = texto;
+                } 
+    </script>
+    -->
+<!--
+    <h1>Ejemplo DOM document.write</h1>
+    <h2>otro mensaje</h2>
+    <button onclick=" cambio()">mostrar</button>
+
+    <script>
+
+        function cambio(){
+
+            document.write ('saludo');
+        }
+
+
+
+    </script>
+    -->
+
+    <h1>Dom imagenes</h1>
+    <button onclick="cambiar()">cambio</button>
+    <br>
+    <img id="imagen" src="https://i.pinimg.com/564x/b1/ce/6b/b1ce6be542df025e46d30d0371b7f598.jpg" alt="jarronNegro">
+
+    <script>
+
+        function cambiar(){
+
+            document.getElementById ('imagen').src ="https://i.pinimg.com/564x/54/df/77/54df7717c827d7b7174676ae516e0490.jpg"
+
+        }
+
+
+    </script>
+  
+
+</body>
+</html>
