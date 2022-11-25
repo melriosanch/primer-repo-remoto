@@ -1,0 +1,87 @@
+package operadores1;
+
+public class Operadores2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		int numero = 0;
+        do {
+        	
+        System.out.println("1 = Suma: ");
+        System.out.println("2 = Resta: ");
+        System.out.println("3 = Multiplicacion: ");
+        System.out.println("4 = División: ");
+        System.out.println("5 = Residuo: ");
+        System.out.println("6 = Salir: ");
+        
+        System.out.print("Introduzca la opción: ");
+        numero = scanner.nextInt();
+        String msj = "";
+        switch (numero) {
+        case 1:
+            System.out.println("Introduce el valor1" );
+            int valor1 = scanner.nextInt();
+            
+            System.out.println("Introduce el valor2" );
+            int valor0 = scanner.nextInt();
+        
+            int suma = valor1+valor0;
+            System.out.println("Suma " + suma);
+            break;
+        case 2: 
+            System.out.println("Introduce el valor1" );
+            int res1 = scanner.nextInt();
+            
+            System.out.println("Introduce el valor2" );
+            int res2 = scanner.nextInt();
+        
+            int resta = res1-res2;
+            System.out.println("Resta " + resta);            
+            break;
+        case 3: 
+            System.out.println("Introduce el valor1" );
+            int mul1= scanner.nextInt();
+            
+            System.out.println("Introduce el valor2" );
+            int mul2 = scanner.nextInt();
+        
+            int multiplicación = mul1*mul2;
+            System.out.println("Multiplicacion " + multiplicación);    
+            break;    
+        case 4:
+            System.out.println("Introduce el valor1" );
+            int div1 = scanner.nextInt();
+            
+            System.out.println("Introduce el valor2" );
+            int div2 = scanner.nextInt();
+        
+            int div = div1/div2;
+            System.out.println("Division " + div);
+            break;
+        case 5:
+            System.out.println("Introduce el valor1" );
+            int rsd1 = scanner.nextInt();
+            
+            System.out.println("Introduce el valor2" );
+            int rsd2 = scanner.nextInt();
+        
+            int Res = rsd1%rsd2;
+            System.out.println("Residuo " + Res);
+        case 6:
+            System.out.print("Byee");
+        break;
+            default:
+                break;
+        }
+        }
+        while (numero != 6);
+
+    }
+
+}
+
+	}
+
+}
+

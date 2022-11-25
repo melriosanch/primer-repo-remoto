@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+/Users/melisssa/Desktop/primer-repo-remoto/JAVA/java 04/.metadata/.plugins/org.eclipse.jdt.core
+623384835.index
+2382286973.index
+2479038004.index
+2321576422.index
+1865797976.index
