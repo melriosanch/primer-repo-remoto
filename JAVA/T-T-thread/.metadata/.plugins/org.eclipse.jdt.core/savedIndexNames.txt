@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/Users/melisssa/Desktop/primer-repo-remoto/JAVA/T-T-thread/.metadata/.plugins/org.eclipse.jdt.core
+677525737.index
+1865797976.index
+2479038004.index
